@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #2e7d32;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+}
+
+.galeria {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.galeria img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.3em;
+}
+
+button {
+  background-color: #388e3c;
+  color: white;
+  padding: 0.7em 1.2em;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
